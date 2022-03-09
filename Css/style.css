@@ -1,0 +1,108 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'hubballi', 'roboto', 'source';
+  font-size: 1.6rem;
+  background-color: beige;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nenTypes{
+  margin-top: 50px;
+}
+
+.characters{
+  margin: 40px 0;
+}
+
+.image{
+  width: 225px;
+  border-radius: 50%;
+}
+
+.imageGoBack{
+  width: 150px;
+}
+
+.goBackFlex{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.mainProganist{
+  padding: 0 30px;
+}
+
+.mainProganist h2 , h3{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.imgCenter{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin:50px auto 0 auto;
+  border-radius: 20px;
+}
+
+.styleGon{
+  background-color: #62AD58;
+  border-radius: 5%;
+  border: 10px solid #A4E99F;
+}
+
+.styleKillua{
+  background-color: #f3f3f3;
+  border-radius: 5%;
+  border: 10px solid #BFBFC1;
+}
+
+.styleKurapika{
+  background-color: #F24656;
+  border-radius: 5%;
+  border: 10px solid #E4C449;
+  color: #f3f3f3;
+}
+
+.styleLeorio{
+  background-color: #05518B;
+  border-radius: 5%;
+  border: 10px solid #000;
+  color: #f3f3f3;
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
